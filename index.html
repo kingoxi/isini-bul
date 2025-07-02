@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>İşini Bul | hamzan.com</title>
+    <link rel="icon" href="assets/img/isinbul.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg border bg-light navbar-light ">
+            <div class="container ">
+                <a class="navbar-brand" href="/"><img class="logo" src="assets/img/isinbul.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " id="anasayfa" aria-current="page" href="#">AnaSayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tüm Işler</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ev Işleri
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ev Temizlik</a></li>
+                                <li><a class="dropdown-item" href="#">Bebek Bakıcılık</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Yaşlı Bakımı</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Kampanyalar</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Iş ara" aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Ara</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container d-flex flex-column align-items-center justify-content-start min-vh-100 mt-2 text-center">
+            <div class="row">
+                <h3>Tüm İşler</h3>
+            </div>
+            <div class="row p-3">
+                <div class="col-md-6 mb-3 col-sm-12 col-lg-4 col-xl-3">
+                    <div class="card sized-card  ">
+                        <img src="https://images.squarespace-cdn.com/content/v1/58412fc9b3db2b11ba9398df/1720454290309-7AUQTDC6G31POFGFIWH1/shutterstock_2334843197.png?format=1000w"
+                            class="card-img-top absolute border sized-img rounded " alt="...">
+                        <span id="day-left" class="badge text-bg-success position-absolute top-0 end-0 m-3">3 Gün
+                            kaldı</span>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold" id="title">Ev Temizliği <span class="text-muted">|</span>
+                                <span class="text-success">2000 TL</span>
+                            </h4>
+
+                            <h5>Ev Tipi: <span class="text-success" id="type">Apartman/Daire</span></h5>
+                            <h5>Oda Sayısı: <span class="text-success" id="room">3+1</span></h5>
+                            <h5>Temizlik Sebebi: <span class="text-success" id="why">Kiracı Çıktı</span></h5>
+                            <p class="card-text text-muted" id="description">Temizlik yapılacak, oda temizlenmesi
+                                gerekiyor,
+                                yemek verilecek ve evde kahvaltı yapılacak</p>
+                            <a href="detay.html" class="btn btn-primary"><i class="fa-solid fa-circle-info me-1"></i>
+                                Detaylar</a>
+                            <a href="#" class="btn btn-success"><i class="fa-solid fa-phone-volume me-2"></i>Ara</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 col-sm-12 col-lg-4 col-xl-3">
+                    <div class="card sized-card ">
+                        <img src="https://www.dogutemizlik.com/File_Uploadx/Sayfa/buyuk/temizlik-malzemeleri-temizlik-esyalari-252339.PNG"
+                            class="card-img-top absolute border sized-img rounded " alt="...">
+                        <span id="day-left" class="badge text-bg-success position-absolute top-0 end-0 m-3">3 Gün
+                            kaldı</span>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold" id="title">Ev Temizliği <span class="text-muted">|</span>
+                                <span class="text-success">2000 TL</span>
+                            </h4>
+
+                            <h5>Ev Tipi: <span class="text-success" id="type">Apartman/Daire</span></h5>
+                            <h5>Oda Sayısı: <span class="text-success" id="room">3+1</span></h5>
+                            <h5>Temizlik Sebebi: <span class="text-success" id="why">Kiracı Çıktı</span></h5>
+                            <p class="card-text text-muted" id="description">Temizlik yapılacak, oda temizlenmesi
+                                gerekiyor,
+                                yemek verilecek ve evde kahvaltı yapılacak</p>
+                            <a href="detay.html" class="btn btn-primary"><i class="fa-solid fa-circle-info me-1"></i>
+                                Detaylar</a>
+                            <a href="#" class="btn btn-success"><i class="fa-solid fa-phone-volume me-2"></i>Ara</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 col-sm-12 col-lg-4 col-xl-3">
+                    <div class="card sized-card  ">
+                        <img src="https://www.veritascevre.com/wp-content/uploads/2021/06/evde-dogal-temizlik-urunleri-nasil-yapilir.jpg"
+                            class="card-img-top absolute border sized-img rounded " alt="...">
+                        <span id="day-left" class="badge text-bg-success position-absolute top-0 end-0 m-3">3 Gün
+                            kaldı</span>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold" id="title">Ev Temizliği <span class="text-muted">|</span>
+                                <span class="text-success">2000 TL</span>
+                            </h4>
+                            <h5>Ev Tipi: <span class="text-success" id="type">Apartman/Daire</span></h5>
+                            <h5>Oda Sayısı: <span class="text-success" id="room">3+1</span></h5>
+                            <h5>Temizlik Sebebi: <span class="text-success" id="why">Kiracı Çıktı</span></h5>
+                            <p class="card-text text-muted" id="description">Temizlik yapılacak, oda temizlenmesi
+                                gerekiyor,
+                                yemek verilecek ve evde kahvaltı yapılacak</p>
+                            <a href="detay.html" class="btn btn-primary"><i class="fa-solid fa-circle-info me-1"></i>
+                                Detaylar</a>
+                            <a href="#" class="btn btn-success"><i class="fa-solid fa-phone-volume me-2"></i>Ara</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 col-sm-12 col-lg-4 col-xl-3">
+                    <div class="card sized-card   ">
+                        <img src="https://sm.mashable.com/mashable_tr/photo/default/birbiriyle-asla-karistirmamaniz-gereken-11-temizlik-urunu_xrz2.jpg"
+                            class="card-img-top absolute border sized-img rounded " alt="...">
+                        <span id="day-left" class="badge text-bg-success position-absolute top-0 end-0 m-3">3 Gün
+                            kaldı</span>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold" id="title">Ev Temizliği <span class="text-muted">|</span>
+                                <span class="text-success">2000 TL</span>
+                            </h4>
+                            <h5>Ev Tipi: <span class="text-success" id="type">Apartman/Daire</span></h5>
+                            <h5>Oda Sayısı: <span class="text-success" id="room">3+1</span></h5>
+                            <h5>Temizlik Sebebi: <span class="text-success" id="why">Kiracı Çıktı</span></h5>
+                            <p class="card-text text-muted" id="description">Temizlik yapılacak, oda temizlenmesi
+                                gerekiyor,
+                                yemek verilecek ve evde kahvaltı yapılacak</p>
+                            <a href="detay.html" class="btn btn-primary"><i class="fa-solid fa-circle-info me-1"></i>
+                                Detaylar</a>
+                            <a href="#" class="btn btn-success"><i class="fa-solid fa-phone-volume me-2"></i>Ara</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="mb-0">&copy;<span id="year"> 0000</span> <a class="text-white text-decoration-none"
+                    href="isinibul.hamzan.com">ISINBUL</a></p>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+</body>
+
+</html>
