@@ -13,3 +13,11 @@
     height: 100px;
     width: 250px;
 }
+
+
+@media (max-width: 768px) {
+    .logo {
+        height: 80px;
+        width: 200px;
+    }
+}
